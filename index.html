@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample Portfolio</title>
+    <!--Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif|Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <!--Icons-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Actual CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+  </head>
+  <body>
+    <section class="fnav">
+      <nav class="nav-extended">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo" style="padding-left: 20px;"
+            >TECH-WORLD</a
+          >
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li>
+              <a href="#" onclick="toggleModal()">
+                <i class="tiny material-icons icon-color2">home</i>Home</a
+              >
+            </li>
+            <li>
+              <a href="#" onclick="toggleModal();">
+                <i class="tiny material-icons icon-color2">question_answer</i
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a href="#" onclick="toggleModal();">
+                <i class="tiny material-icons icon-color2">language</i
+                >Technologies</a
+              >
+            </li>
+            <li>
+              <a href="#" onclick="toggleModal();">
+                <i class="tiny material-icons icon-color2">contacts</i>Contact
+                Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="#" onclick="toggleModal();">Home</a></li>
+        <li><a href="#" onclick="toggleModal();">About Us</a></li>
+        <li><a href="#" onclick="toggleModal();">Technologies</a></li>
+        <li><a href="#" onclick="toggleModal();">Contact Us</a></li>
+      </ul>
+    </section>
+
+    <section class="fslider">
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="images/man.jpeg" />
+            <div class="caption center-align white-text">
+              <h3>TECH HOME PAGE</h3>
+              <h5 class="light text-lighten-1">MULTIPLE TECHNOLOGIES</h5>
+            </div>
+          </li>
+          <li>
+            <img src="images/smart.webp" />
+            <div class="caption center-align white-text">
+              <h3>TECH HOME PAGE</h3>
+              <h5 class="light text-lighten-1">MULTIPLE TECHNOLOGIES</h5>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="description">
+      <div class="section white center">
+        <h2 class="header">Tech Area</h2>
+        <div class="row container center">
+          <div class="col center l8 s12">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+            error cumque aliquam impedit eius cupiditate aliquid? Officia totam
+            ab quos nemo tempore, nobis cumque unde consequatur! Recusandae,
+            optio. Odio explicabo ipsam, deleniti fuga, facilis enim voluptate
+            quas labore iste fugiat beatae corporis vel quisquam sint quidem?
+            Pariatur enim numquam accusantium autem, ullam iste doloribus harum
+            similique blanditiis adipisci quam magnam praesentium animi neque
+            aspernatur quis quae nobis ut. Consequatur sequi, fugiat illum culpa
+            ea eos, iure veniam cum laboriosam amet esse inventore tenetur
+            repellat maiores! Voluptatum commodi aperiam eum, obcaecati quam
+            explicabo sed totam accusantium et aut tempore eveniet ea.
+          </div>
+          <div class="col center l4 s12">
+            <img
+              src="images/laptop.jpeg"
+              style="object-fit: conatin;"
+              height="200"
+              width="auto"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fcards">
+      <div class="row" style="padding-left: 60px; padding-right: 50px;">
+        <div class="col s12 m12 l4" style="padding: 50px 5px;">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/mix.jpeg" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >IT Industry<i class="material-icons right">more_vert</i></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Card Title<i class="material-icons right">close</i></span
+              >
+              <p>
+                Here is some more information about this product that is only
+                revealed once clicked on.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m12 l4" style="padding: 50px 5px;">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/ai.jpeg" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >Ethical Hacking<i class="material-icons right"
+                  >more_vert</i
+                ></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Card Title<i class="material-icons right">close</i></span
+              >
+              <p>
+                Here is some more information about this product that is only
+                revealed once clicked on.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m12 l4" style="padding: 50px 5px;">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/pc.webp" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"
+                >Programming World<i class="material-icons right"
+                  >more_vert</i
+                ></span
+              >
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"
+                >Card Title<i class="material-icons right">close</i></span
+              >
+              <p>
+                Here is some more information about this product that is only
+                revealed once clicked on.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fparallax">
+      <div class="parallax-container">
+        <div class="parallax">
+          <img src="images/man.jpeg" />
+        </div>
+      </div>
+    </section>
+
+    <section class="fabout">
+      <div class="section white center">
+        <div class="row container">
+          <h2 class="header">About Us</h2>
+          <p class="grey-text text-darken-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea fugit at
+            sit repudiandae dolore culpa, numquam incidunt molestias nam cum
+            odit non iste sint ut rem ad expedita doloremque velit illum dicta
+            eligendi consectetur repellendus. Voluptas sint tempore praesentium
+            ducimus. Ex doloremque, est repellendus velit vel voluptatibus
+            perspiciatis at ratione officia aliquid aspernatur itaque laborum et
+            cum enim illum saepe facilis veniam, totam ipsa, exercitationem
+            optio nemo repellat voluptates! Minus fuga aliquid optio voluptatum
+            repudiandae enim adipisci nam tempore quis, architecto id quibusdam
+            nesciunt in reprehenderit itaque doloribus nisi quo quae, possimus
+            vero, quam non expedita ex sit? Modi consectetur consequuntur
+            recusandae rem aperiam inventore quas nam aliquam aut. Distinctio
+            corrupti repudiandae numquam qui, dolores ut inventore veritatis.
+            Eos dolore accusantium delectus non. Voluptatem debitis architecto
+            sint expedita voluptates maiores odio nisi, nesciunt quaerat a odit
+            provident harum impedit optio maxime atque nemo repellendus dolor
+            animi incidunt. Dolorem dolore consectetur, reiciendis ipsam et
+            aliquid tempora quasi molestiae eveniet ab saepe rem facere enim
+            libero nulla quisquam quae! Asperiores recusandae distinctio
+            corporis reprehenderit velit! Esse, sunt laboriosam asperiores,
+            corporis laudantium doloribus sed natus dolor, quidem nisi quam
+            inventore corrupti est quibusdam? Incidunt, quis! Earum facilis non
+            esse recusandae assumenda molestiae reprehenderit.
+          </p>
+          <a
+            href="#"
+            style="background: #212121 !important;"
+            class="btn waves effect waves-light"
+            >READ MORE</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="fservices">
+      <div class="row" style="padding: 0px 50px;">
+        <div class="col s12 l4 center" style="padding: 50px;">
+          <i class="large material-icons icon-color">laptop_mac</i>
+          <h5>Platform Independent</h5>
+        </div>
+
+        <div class="col s12 l4 center" style="padding: 50px;">
+          <i class="large material-icons icon-color">monetization_on</i>
+          <h5>More Money</h5>
+        </div>
+
+        <div class="col s12 l4 center" style="padding: 50px;">
+          <i class="large material-icons icon-color">trending_up</i>
+          <h5>Trending in Market</h5>
+        </div>
+      </div>
+    </section>
+
+    <section class="freviews">
+      <div class="section white center">
+        <h3 class="header">What Our Customer Say</h3>
+        <div class="carousel reviews" style="margin-bottom: 30px;">
+          <a href="#" class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <div
+                  class="card-panel"
+                  style="background-color: #212121 !important;"
+                >
+                  <span class="white-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Debitis, vel quas? Ab similique accusantium qui, nulla
+                    expedita dignissimos esse necessitatibus.</span
+                  >
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <div
+                  class="card-panel"
+                  style="background-color: #212121 !important;"
+                >
+                  <span class="white-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Debitis, vel quas? Ab similique accusantium qui, nulla
+                    expedita dignissimos esse necessitatibus.</span
+                  >
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <div
+                  class="card-panel"
+                  style="background-color: #212121 !important;"
+                >
+                  <span class="white-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Debitis, vel quas? Ab similique accusantium qui, nulla
+                    expedita dignissimos esse necessitatibus.</span
+                  >
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <div
+                  class="card-panel"
+                  style="background-color: #212121 !important;"
+                >
+                  <span class="white-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Debitis, vel quas? Ab similique accusantium qui, nulla
+                    expedita dignissimos esse necessitatibus.</span
+                  >
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <div
+                  class="card-panel"
+                  style="background-color: #212121 !important;"
+                >
+                  <span class="white-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Debitis, vel quas? Ab similique accusantium qui, nulla
+                    expedita dignissimos esse necessitatibus.</span
+                  >
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <div
+                  class="card-panel"
+                  style="background-color: #212121 !important;"
+                >
+                  <span class="white-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Debitis, vel quas? Ab similique accusantium qui, nulla
+                    expedita dignissimos esse necessitatibus.</span
+                  >
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="carousel-item">
+            <div class="row">
+              <div class="col s12">
+                <div
+                  class="card-panel"
+                  style="background-color: #212121 !important;"
+                >
+                  <span class="white-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Debitis, vel quas? Ab similique accusantium qui, nulla
+                    expedita dignissimos esse necessitatibus.</span
+                  >
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <footer class="footer-one">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s6">
+              <h4 class="white-text">
+                <i class="tiny material-icons icon-color2">contacts</i> Contact
+                Us
+              </h4>
+              <p class="white-text">
+                <i class="tiny material-icons icon-color2">place</i> Hoshiarpur
+              </p>
+              <p class="white-text">
+                <i class="tiny material-icons icon-color2">call</i> 9041337227
+              </p>
+            </div>
+            <div class="col l6 s6">
+              <h4 class="white-text">Social Media</h4>
+              <ul>
+                <li><a href="#" class="white-text"> FaceBook</a></li>
+                <li><a href="#" class="white-text"> Instagram</a></li>
+                <li><a href="#" class="white-text"> Twiter</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row footer-two">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s6">
+                <p class="white-text" style="padding-left: auto;">
+                  &copy; Technologies 2020
+                </p>
+              </div>
+              <div class="col l6 s6">
+                <p class="white-text">Designed By Choudhary Saab</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <section class="infomodal">
+      <div id="modal2" class="modal">
+        <div class="modal-content">
+          <h4 id="info-modal-heading">Link disable</h4>
+          <p id="info-modal-content">Welcome Let's Begin</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#" class="modal-close waves-effect btn-flat">Close</a>
+        </div>
+      </div>
+    </section>
+  </body>
+  <!--Actual Jquery -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"
+    integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ=="
+    crossorigin="anonymous"
+  ></script>
+  <!--Actual JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!--Custome JS-->
+  <script src="js/index.js"></script>
+</html>
